@@ -1,0 +1,10 @@
+name: pytorch-fodnet
+channels:
+
+dependencies:
+- python=3.6
+- pytorch=1.4.0
+- scipy
+- pip:
+  - git+https://github.com/pytorch/vision.git
+  - numpy==1.14.1
