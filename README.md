@@ -126,7 +126,7 @@ To train a model, please run
 python train.py --dataroot ./dataset/ --dataset_mode hcp --cfg ./config/fodnet_updated_config.yml
 ```
 
-You can adjust the FOD-Net parameters either using arguments or cfg files located at ```./config/*/yml```
+You can adjust the FOD-Net parameters either using arguments or cfg files located at ```./config/*.yml```
 
 ## FODNet inference
 
