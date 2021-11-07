@@ -1,0 +1,23 @@
+batch_size: 256
+size_3d_patch: 9
+verbose: True
+# Learning rate and GPU IDs
+lr: 0.0005
+gpu_ids: 3
+init_type: 'xavier'
+num_threads: 8
+
+# Parameters for Checkpoint
+checkpoints_dir: ./checkpoints
+model: fodnet
+name: fodnet_real_o8_0005
+suffix: bothwmgm
+
+
+# Parameters for visualization and saving models
+print_freq: 25
+save_latest_freq: 50000
+save_epoch_freq: 25
+
+
+

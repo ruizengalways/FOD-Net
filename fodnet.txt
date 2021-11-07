@@ -1,0 +1,7 @@
+@article{zeng2021fod,
+title={FOD-Net: A Deep Learning Method for Fiber Orientation Distribution Angular Super Resolution},
+author={Zeng, Rui and Lv, Jinglei and Wang, He and Zhou, Luping and Barnett, Michael and Calamante, Fernando and Wang, Chenyu},
+journal={bioRxiv},
+year={2021},
+publisher={Cold Spring Harbor Laboratory}
+}

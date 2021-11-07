@@ -1,3 +1,6 @@
 /.project
 *.nii.gz
 .pth
+*.pyc
+
+models/__pycache__/
