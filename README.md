@@ -13,7 +13,7 @@ This updated PyTorch implementation produces results comparable to or better tha
 If you use this code for your research, please cite:
 
 FOD-Net: A Deep Learning Method for Fiber Orientation Distribution Angular Super Resolution.<br>
-[Rui Zeng](https://sites.google.com/site/ruizenghomepage/), Jinglei Lv, He Wang, Luping Zhou, Michael Barnett, Fernando Calamante\*, Chenyu Wang\*. In [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.01.17.427042). (* equal contributions) [[Bibtex]](fodnet.txt)
+[Rui Zeng](https://sites.google.com/site/ruizenghomepage/), Jinglei Lv, He Wang, Luping Zhou, Michael Barnett, Fernando Calamante\*, Chenyu Wang\*. In [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.01.17.427042). (* equal contributions) [[Bibtex]](fodnet.txt). **This work has been accepted by Medical Image Analysis at 21th March, 2022.**
 
 ## Abstract and Highlights
 Our highlights can be concluded as follows:
