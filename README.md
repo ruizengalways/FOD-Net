@@ -150,7 +150,7 @@ If you use this code for your research or find our work is inspiring, please cit
 @article{zeng2021fod,
 title={FOD-Net: A Deep Learning Method for Fiber Orientation Distribution Angular Super Resolution},
 author={Zeng, Rui and Lv, Jinglei and Wang, He and Zhou, Luping and Barnett, Michael and Calamante, Fernando and Wang, Chenyu},
-journal={bioRxiv},
+journal={Accepted by Medical Image Analysis at 21th March, 2022},
 year={2021},
 publisher={Cold Spring Harbor Laboratory}
 }
