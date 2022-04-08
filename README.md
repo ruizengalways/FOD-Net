@@ -13,7 +13,7 @@ This updated PyTorch implementation produces results comparable to or better tha
 If you use this code for your research, please cite:
 
 FOD-Net: A Deep Learning Method for Fiber Orientation Distribution Angular Super Resolution.<br>
-[Rui Zeng](https://sites.google.com/site/ruizenghomepage/), Jinglei Lv, He Wang, Luping Zhou, Michael Barnett, Fernando Calamante\*, Chenyu Wang\*. In [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.01.17.427042). (* equal contributions) [[Bibtex]](fodnet.txt). **This work has been accepted by Medical Image Analysis at 21th March, 2022.** [[doi]](https://doi.org/10.1016/j.media.2022.102431)
+[Rui Zeng](https://sites.google.com/site/ruizenghomepage/), Jinglei Lv, He Wang, Luping Zhou, Michael Barnett, Fernando Calamante\*, Chenyu Wang\*. In [Medical Image Analysis](https://www.sciencedirect.com/science/article/abs/pii/S1361841522000822). (* equal contributions) [[Bibtex]](fodnet.txt).
 
 ## Abstract and Highlights
 Our highlights can be concluded as follows:
@@ -147,13 +147,18 @@ We use ```tckgen``` [link](https://mrtrix.readthedocs.io/en/latest/reference/com
 ## Citation
 If you use this code for your research or find our work is inspiring, please cite our papers.
 ```
-@article{zeng2021fod,
-title={FOD-Net: A Deep Learning Method for Fiber Orientation Distribution Angular Super Resolution},
-author={Zeng, Rui and Lv, Jinglei and Wang, He and Zhou, Luping and Barnett, Michael and Calamante, Fernando and Wang, Chenyu},
-journal={Accepted by Medical Image Analysis at 21th March, 2022},
-year={2021},
-doi={10.1016/j.media.2022.102431},
-url={https://doi.org/10.1016/j.media.2022.102431}
+@article{ZENG2022102431,
+title = {FOD-Net: A deep learning method for fiber orientation distribution angular super resolution},
+journal = {Medical Image Analysis},
+volume = {79},
+pages = {102431},
+year = {2022},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2022.102431},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841522000822},
+author = {Rui Zeng and Jinglei Lv and He Wang and Luping Zhou and Michael Barnett and Fernando Calamante and Chenyu Wang},
+keywords = {Fiber orientation distribution, Connectomics, Angular super resolution, Diffusion magnetic resonance imaging},
+abstract = {Mapping the human connectome using fiber-tracking permits the study of brain connectivity and yields new insights into neuroscience. However, reliable connectome reconstruction using diffusion magnetic resonance imaging (dMRI) data acquired by widely available clinical protocols remains challenging, thus limiting the connectome/tractography clinical applications. Here we develop fiber orientation distribution (FOD) network (FOD-Net), a deep-learning-based framework for FOD angular super-resolution. Our method enhances the angular resolution of FOD images computed from common clinical-quality dMRI data, to obtain FODs with quality comparable to those produced from advanced research scanners. Super-resolved FOD images enable superior tractography and structural connectome reconstruction from clinical protocols. The method was trained and tested with high-quality data from the Human Connectome Project (HCP) and further validated with a local clinical 3.0T scanner as well as with another public available multicenter-multiscanner dataset. Using this method, we improve the angular resolution of FOD images acquired with typical single-shell low-angular-resolution dMRI data (e.g., 32 directions, b=1000 s/mm2) to approximate the quality of FODs derived from time-consuming, multi-shell high-angular-resolution dMRI research protocols. We also demonstrate tractography improvement, removing spurious connections and bridging missing connections. We further demonstrate that connectomes reconstructed by super-resolved FODs achieve comparable results to those obtained with more advanced dMRI acquisition protocols, on both HCP and clinical 3.0T data. Advances in deep-learning approaches used in FOD-Net facilitate the generation of high quality tractography/connectome analysis from existing clinical MRI environments. Our code is freely available at https://github.com/ruizengalways/FOD-Net.}
 }
 ```
 
