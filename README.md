@@ -57,7 +57,7 @@ cd FOD-Net
 ### Human Connectome Project dataset preparation
 The description about this dataset can be found in this [link](https://www.humanconnectome.org/study/hcp-young-adult/data-releases)
 
-To train FOD-Net, we first need to generate single-shell LARDI dMRI data from multi-shell dMRI data first. As the size of HCP dataset is too large, I have prepared the toy dataset, which only contains one subject, for you to play around. Please download this compressed dataset ([link](https://unisyd-my.sharepoint.com/:u:/g/personal/rui_zeng_sydney_edu_au/EWXv0zjEnNFKsE5qUhkPNywBCPiS-s0rArtlpUcgsDapbQ?e=8xSPAm)) and uncompress it into ```/dataset```.
+To train FOD-Net, we first need to generate single-shell LARDI dMRI data from multi-shell dMRI data first. As the size of HCP dataset is too large, I have prepared the toy dataset, which only contains one subject, for you to play around. Please download this compressed dataset ([link](https://unisyd-my.sharepoint.com/:u:/g/personal/rui_zeng_sydney_edu_au/EXHhudtVYzRPspcGJwftTWIBcZYUJly-0SpqJIOW9vtxyg?e=ycJSkj)) and uncompress it into ```/dataset```.
 
 The directory tree of ```/dataset``` should look like the following after uncompressing the file:
 
